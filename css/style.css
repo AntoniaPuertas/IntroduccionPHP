@@ -1,0 +1,56 @@
+body {
+    background: #661f84;  /* fallback for old browsers */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1, p, a {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    display: block;
+    line-height:.8;
+    color: white;
+}
+.container {
+    max-width: 1200px;
+    margin: 5rem auto 0 auto;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+h1 {
+    font-size: 3rem;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    border-bottom: 1px solid #240b2f;
+}
+a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 3px 0px rgb(60 26 75);
+}
+a:hover{
+    background-color: #9d45c3;
+}
+p {
+    font-size: 2.2rem;
+}
+.articulos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+article {
+    border: 1 solid black;
+    border-radius: 0.2rem;
+    box-shadow: 1px 1px 3px 0px rgb(60 26 75);
+    padding: 1rem;
+}
+.rebajado {
+    background-color: red;
+    color: white;
+    padding: 1rem;
+}
