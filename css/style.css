@@ -54,3 +54,46 @@ article {
     color: white;
     padding: 1rem;
 }
+
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: #240b2f;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.campoForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    padding: 1rem;
+    width: 60%;
+    margin-bottom: 1rem;
+}
+
+input[type="submit"]{
+    width: 100%;
+    color: white;
+    margin: 1rem auto;
+    cursor: pointer;
+    background-color: rgb(24, 74, 24);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(12, 30, 12);
+}
+table{
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+table th, table td{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border: 1px solid black;
+}

@@ -1,4 +1,7 @@
 <?php
+
+include 'includes/header.php';
+
     echo '<h1>Hola mundo desde PHP</h1>';
     //echo ('<h1>Hola mundo desde PHP</h1>');
     print 'Hola mundo con print';
@@ -11,3 +14,6 @@
 <h1>Hola Mundo</h1>
 
 <h2><?php echo 'Otra vez hola'; ?></h2>
+
+<?php
+require 'includes/footer.php';

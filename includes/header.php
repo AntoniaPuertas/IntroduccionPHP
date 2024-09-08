@@ -25,6 +25,10 @@
         <a href="13-funciones.php">13 Funciones</a>
         <a href="14-require.php">14 Require</a>
         <a href="15-json.php">15 JSON</a>
+        <a href="16-variables-superglobales.php">16 Variables Superglobales</a>
+        <a href="17-get.php">17 GET</a>
+        <a href="18-post.php">18 POST</a>
+        <a href="19-ejercicios.php">19 Ejercicios</a>
     </nav>
 
     <div class="container">
