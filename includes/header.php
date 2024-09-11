@@ -29,6 +29,7 @@
         <a href="17-get.php">17 GET</a>
         <a href="18-post.php">18 POST</a>
         <a href="19-ejercicios.php">19 Ejercicios</a>
+        <a href="20-matrices.php">20 Matrices</a>
     </nav>
 
     <div class="container">
