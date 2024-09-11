@@ -46,21 +46,16 @@ for($i = 0 ; $i < count($array3) ; $i++){
         <th>Tercera</th>
     </thead>
     <tbody>
-        <tr>
-            <td>primero 0</td>
-            <td>primero 1</td>
-            <td>primero 2</td>
-        </tr>
-        <tr>
-            <td>segundo 0</td>
-            <td>segundo 1</td>
-            <td>segundo 2</td>
-        </tr>
-        <tr>
-            <td>tercero 0</td>
-            <td>tercero 1</td>
-            <td>tercero 2</td>
-        </tr>
+<?php  
+    for($i = 0 ; $i < count($array3) ; $i++){
+        echo '<tr>';
+        for($j = 0 ; $j < count($array3[$i]) ; $j++){
+            echo '<td>' . $array3[$j][$i] .'</td>';
+        }
+        echo '</tr>';
+    }
+?>  
+
     </tbody>
 </table>
 
