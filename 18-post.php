@@ -1,7 +1,7 @@
 <?php 
 include 'includes/header.php';?>
 
-<h2>Formulario con GET</h2>
+<h2>Formulario con POST</h2>
 
 <form action="recibir-post.php" method="POST">
   <div class="campoForm">

@@ -40,17 +40,6 @@
     'DEPORTES' => array('FIFA 19', 'PES 19', 'MOTO GP 19')
  );
 
- echo "<table>";
- echo "<tr><th>Género</th><th>Juegos</th></tr>";
- 
- foreach ($tabla as $genero => $juegos) {
-     echo "<tr>";
-     echo "<td>" . $genero . "</td>";
-     echo "<td>" . implode(", ", $juegos) . "</td>";
-     echo "</tr>";
- }
- 
- echo "</table>";
 
     // array_map('count', $array) - aplica una función, en este caso count a cada elemento de $array y devuelve un array con los resultados
     //max($array) - devuelve el valor máximo de un array
